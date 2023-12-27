@@ -77,7 +77,6 @@ ol {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
 }
 
 .header {
@@ -119,6 +118,7 @@ ol {
   padding: 24px 0;
   color: #2e2f42;
   display: block;
+  position: relative;
 }
 
 .nav-item-link:hover {
