@@ -7,10 +7,13 @@ body {
 
 header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 a {
   color: currentColor;
+  text-decoration: none;
 }
 
 button {
@@ -73,6 +76,8 @@ ol {
 .div-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  position: relative;
 }
 
 .header {
@@ -113,6 +118,7 @@ ol {
 .nav-item-link {
   padding: 24px 0;
   color: #2e2f42;
+  display: block;
 }
 
 .nav-item-link:hover {
@@ -227,7 +233,6 @@ ol {
   line-height: 1.2em;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  text-align: center;
 }
 
 .text {
@@ -245,10 +250,22 @@ ol {
   padding: 120px 0;
 }
 
+.header-three-team {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2em;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
 .div-section-three {
 }
 
-.header-twosection {
+/*  */
+
+.header-title {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
   font-size: 36px;
@@ -316,6 +333,12 @@ ol {
 
 .header-portfolio-three {
   margin-bottom: 8px;
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2em;
+  letter-spacing: 0.02em;
 }
 
 /* styles footer */
@@ -347,4 +370,5 @@ ol {
   font-weight: 400;
   line-height: 1.5em;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
