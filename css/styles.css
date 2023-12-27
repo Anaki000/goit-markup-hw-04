@@ -380,8 +380,36 @@ ol {
   font-style: normal;
   font-weight: 500;
   line-height: 1.5em;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   margin-bottom: 16px;
+}
+
+.social-list-footer {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-link:hover {
+  background-color: #31d0aa;
+}
+
+.footer-link:focus {
+  background-color: #31d0aa;
+}
+
+.list-item-footer {
+  width: 40px;
+  height: 40px;
 }
 
 .logo-footer {
