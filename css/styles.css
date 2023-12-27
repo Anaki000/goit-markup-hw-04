@@ -97,6 +97,7 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  position: relative;
 }
 
 .logo-studio {
@@ -118,7 +119,6 @@ ol {
   padding: 24px 0;
   color: #2e2f42;
   display: block;
-  position: relative;
 }
 
 .nav-item-link:hover {
