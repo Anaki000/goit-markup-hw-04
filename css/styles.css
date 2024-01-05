@@ -448,8 +448,8 @@ ol {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.paragraph-container-img:hover {
-  transform: translateY(0%);
+.item-list-portfolio:hover .paragraph-container-img {
+  transition: translateY(0%);
 }
 
 /* styles footer */
