@@ -186,6 +186,7 @@ ol {
     ),
     url(../images/people-office1.png);
   background-size: cover;
+  max-width: 1440px;
 }
 
 .div-section-one {
