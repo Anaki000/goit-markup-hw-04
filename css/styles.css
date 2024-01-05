@@ -135,9 +135,10 @@ ol {
 .item-link-studio.active::after {
   content: '';
   position: absolute;
-  color: #404bbf;
-  left: 0;
   bottom: -1px;
+  display: block;
+  width: 100%;
+  color: #404bbf;
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
